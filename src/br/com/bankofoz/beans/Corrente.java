@@ -13,7 +13,7 @@ public class Corrente extends Conta {
 	}
 	
 	public void debitarTaxa() {
-		
+		super.setSaldo(super.getSaldo() - taxa);
 	}
 	
 	public void aumentarLimite(float porc) {
